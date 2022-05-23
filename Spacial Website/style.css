@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Overpass:wght@400;700&family=Poppins:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header__section {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 5rem;
+    background: #373B44; 
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #4286f4, #373B44); 
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.header__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.header__links a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__links button {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;    
+}
+
+.logo {
+    padding-right: 15rem;
+    font-size: 1.5rem;
+}
+
+.header__title {
+    color: white;
+    font-weight: normal;
+    padding-bottom: 2rem;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo img {
+    margin-right: 1rem;
+}
+
+.main__section {
+    display: flex;
+    gap: 2rem;
+    flex-basis: 1fr 1fr 1fr;
+}
+.main__leftside img {
+    width: 7rem;
+    margin: .8rem 0;
+    
+}
+.main__midside img {
+    width: 7rem;
+    margin: .8rem 0;
+}
+.main__rightside img {
+    width: 7rem;
+    margin: .8rem 0;
+    
+}
+
+.main__leftside img:first-of-type {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.main__midside img:first-of-type {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+
+.main__rightside img:first-of-type {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+
+.main__leftside {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__midside {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__rightside  {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__midside p, .main__rightside p, .main__leftside p {
+    display: flex;
+    font-size: .9rem;
+    color:rgb(145, 103, 223)
+}
+
+.main__section {
+    margin: 5rem 10rem;
+}
+
+.main__ready {
+    color: blue;
+    font-size: .9rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+
